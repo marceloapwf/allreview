@@ -3,11 +3,7 @@ const loginForm = document.querySelector(".form-login");
 const cadastroForm = document.querySelector(".form-cadastro");
 const titleLogin = document.querySelector(".title-login");
 const titleCadastro = document.querySelector(".title-cadastro");
-const inputEmail = document.querySelector("#inputEmail");
 
-if(!isNaN(inputEmail.value)){
-    
-}
 
 document.querySelector("#link-cadastro").addEventListener("click", e => {
     e.preventDefault();

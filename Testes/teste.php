@@ -1,7 +1,13 @@
+<?php
+    include("PHP/login.php");
+    include("PHP/signup.php");
+
+?>
+
 <!DOCTYPE html>
     <head>
         <title>Teste CSS</title>
-        <link href="teste.css" rel="stylesheet">
+        <link href="CSS/teste.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
 
     </head>
@@ -21,7 +27,7 @@
                 <div class="labels">
                     <label for="inputData">Email</label>
                 </div>
-                <input type="text" class="inputData" id="inputEmail" name="email" placeholder="Insira seu email">
+                <input type="text" class="inputData"  name="email" placeholder="Insira seu email">
             </div>
 
             <div class="inputDiv">
@@ -33,7 +39,7 @@
 
             <div class="inputDiv-button">
                 
-                <button type="submit" class="button-submit"><i class="fas fa-id-card"></i><span>Entrar</span></button>
+                <button type="submit" class="button-submit" name="btn-login" value="submit"><i class="fas fa-id-card"></i><span>Entrar</span></button>
             </div>
 
             <div class="inputDiv inputDiv-link">
@@ -54,16 +60,9 @@
 
             <div class="inputDiv">
                 <div class="labels">
-                    <label for="inputData">Sobrenome</label>
+                    <label for="inputData">Email</label>
                 </div>
-                <input type="text" class="inputData" name="sobrenome" placeholder="Insira seu sobrenome">
-            </div>
-
-            <div class="inputDiv">
-                <div class="labels">
-                    <label for="inputData">Apelido</label>
-                </div>
-                <input type="text" class="inputData" name="apelido" placeholder="Insira seu apelido">
+                <input type="text" class="inputData" name="email" placeholder="Insira seu email">
             </div>
 
             <div class="inputDiv">
@@ -82,7 +81,7 @@
 
             <div class="inputDiv-button">
                 
-                <button type="submit" class="button-submit"><i class="fas fa-id-card"></i><span>Cadastrar</span></button>
+                <button type="submit" class="button-submit" name="btn-cadastro" value="submit"><i class="fas fa-id-card"></i><span>Cadastrar</span></button>
             </div>
             
             <div class="inputDiv inputDiv-link">

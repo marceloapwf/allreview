@@ -21,7 +21,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 50%;
+    height: 40%;
     width: 20%;
     background-image: linear-gradient(to bottom right, rgba(167, 167, 167, 0.2), rgba(255, 235, 204, 0.702)) ;
     padding: 0%;
