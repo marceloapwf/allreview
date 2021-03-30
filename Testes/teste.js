@@ -30,3 +30,4 @@ document.querySelector("#link-login").addEventListener("click", e => {
 //document.getElementById("content").innerHTML = "whatever";
 // teste
 //teste 23332323
+// ctrl + enter
