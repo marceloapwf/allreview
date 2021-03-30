@@ -28,3 +28,4 @@ document.querySelector("#link-login").addEventListener("click", e => {
 
 
 //document.getElementById("content").innerHTML = "whatever";
+// teste
