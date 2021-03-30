@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Righteous', cursive;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, black, rgb(41, 41, 90));
+    flex-direction: column;
+}
+
+
+
+.form-cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 20%;
+    background-image: linear-gradient(to bottom right, rgba(167, 167, 167, 0.2), rgba(255, 235, 204, 0.702)) ;
+    padding: 0%;
+    box-shadow: -2px -2px 4px black;
+    border-radius: 3px;
+}
+
+
+
+.form-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    width: 20%;
+    background-image: linear-gradient(to bottom right, rgba(167, 167, 167, 0.2), rgba(255, 235, 204, 0.702)) ;
+    padding: 0%;
+    box-shadow: -2px -2px 4px black;
+    border-radius: 3px;
+}
+
+
+.title-login, .title-cadastro{
+    font-size: 3vw;
+    color: blanchedalmond;
+    text-shadow: -2px -2px 20px black;
+    
+    margin-bottom: 0.2vh;
+
+    transition: 0.3s;
+}
+
+.title:hover{
+    text-shadow: -1px -1px 4px blanchedalmond;
+    margin-bottom: 0vh;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.fa-id-card{
+    margin: 0, 10px, 0, 0;
+}
+
+.inputDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18vw;
+    height: 8vh;
+    transition-duration: 0.3s;
+}
+
+.inputDiv:hover{
+    width: 18.7vw;
+}
+
+.inputDiv-button{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 18vw;
+    height: 8vh;
+    transition-duration: 0.3s;
+}
+
+.inputDiv-link{
+    height: 3vh;
+    margin-bottom: 1vh;
+    
+}
+
+.inputData{
+    width: 100%;
+    height: 50%;
+    box-shadow: -1px -1px 4px black;
+    padding: 0.5vw;
+    box-sizing: border-box;
+}
+
+.labels{
+    width: 100%;
+    padding-bottom: 0.1vh;
+}
+
+label{
+    text-shadow: -1px -1px 4px black;
+    color:blanchedalmond;
+    font-size: 1vw;
+}
+
+.button-submit{
+    height: 50%;
+    width: 40%;
+    font-size: 0.90vw;
+    box-shadow: -1px -1px 4px black;
+    background-color: rgba(141, 141, 141, 0.9);
+    transition: background-color 0.3s;
+    transition-delay: 10ms;
+    transition: 0.3s;
+}
+
+.button-submit:hover{
+    background-color: white;
+}
+
+#link-cadastro, #link-login{
+    text-decoration: none;
+    color: white;
+    transition-delay: 10ms;
+    transition: 0.3s;
+    font-size: 1vw;
+}
+
+#link-cadastro:hover, #link-login:hover{
+    transform: scale(1.02);
+}
+

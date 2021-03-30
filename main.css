@@ -1,0 +1,62 @@
+body{
+	background: black;
+	height: 100vh;
+	font-family: 'Pangolin', cursive;
+}
+
+input{
+	border-radius: 1px;
+	padding: 0px;
+	background: #f7cac9;
+	border-style: none;
+	border-color: #f7cac9;
+}
+
+.forms{	
+	padding: 3px;
+	background: rgba(227, 234, 167, 0.4);
+	border-radius: 1px;
+	width: max-content;
+	margin: 10px auto;
+	height: 100%;
+	vertical-align: center;
+	transform: scale(2);
+}
+
+.inputUser-Password{
+	
+	background: rgba(227, 234, 167, 0);
+	padding: 5px;
+	border-radius: 1px;
+	width: max-content;
+	text-align: center;
+	margin: 0 auto;
+
+}
+.container{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+
+}
+
+h2{
+	text-align: center;
+	font-size: 40px;
+	border: 0px;
+}
+
+.links{
+	text-align: center;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+#submitDiv{
+	margin: 3px auto;
+	text-align: center;
+	align-content: center;
+}
