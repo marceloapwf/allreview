@@ -30,12 +30,16 @@
                 <input type="text" class="inputData"  name="email" placeholder="Insira seu email">
             </div>
 
+            
+
             <div class="inputDiv">
                 <div class="labels">
                     <label for="inputData">Senha</label>
                 </div>
                 <input type="password" class="inputData" name="password" placeholder="*********">
             </div>
+
+            <div class="inputDivSenha hidden"></div>
 
             <div class="inputDiv-button">
                 

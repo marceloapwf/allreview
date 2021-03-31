@@ -21,7 +21,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 40%;
+    min-height: 40%;
     width: 20%;
     background-image: linear-gradient(to bottom right, rgba(167, 167, 167, 0.2), rgba(255, 235, 204, 0.702)) ;
     padding: 0%;
@@ -36,7 +36,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 25%;
+    min-height: 25%;
     width: 20%;
     background-image: linear-gradient(to bottom right, rgba(167, 167, 167, 0.2), rgba(255, 235, 204, 0.702)) ;
     padding: 0%;
@@ -60,9 +60,7 @@ body{
     margin-bottom: 0vh;
 }
 
-.hidden{
-    display: none;
-}
+
 
 
 .fa-id-card{
@@ -145,3 +143,19 @@ label{
     transform: scale(1.02);
 }
 
+
+.inputDivSenha{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 18vw;
+    height: 2vh;
+    transition-duration: 0.3s;
+
+}
+
+.hidden{
+    display: none;
+}

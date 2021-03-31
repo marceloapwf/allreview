@@ -3,6 +3,18 @@ const loginForm = document.querySelector(".form-login");
 const cadastroForm = document.querySelector(".form-cadastro");
 const titleLogin = document.querySelector(".title-login");
 const titleCadastro = document.querySelector(".title-cadastro");
+const inputSenhaAlerta = document.querySelector(".inputDivSenha");
+
+
+var password = cadastroForm.querySelector("[name='password']");
+password.addEventListener("input", function() {
+    if(password.value != ""){
+        inputSenhaAlerta.classList.remove("hidden");
+        inputSenhaAlerta.innerHTML = password.value;
+    }else{
+        inputSenhaAlerta.classList.add("hidden");
+    }
+});
 
 
 document.querySelector("#link-cadastro").addEventListener("click", e => {
