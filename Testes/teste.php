@@ -39,7 +39,7 @@
                 <input type="password" class="inputData" name="password" placeholder="*********">
             </div>
 
-            <div class="inputDivSenha hidden"></div>
+            <div class="inputDivSenhaUm hidden"></div>
 
             <div class="inputDiv-button">
                 
@@ -76,12 +76,16 @@
                 <input type="password" class="inputData" name="password" placeholder="*********">
             </div>
 
+            <div class="inputDivSenhaUm hidden"></div>
+
             <div class="inputDiv inputDiv-last">
                 <div class="labels">
                     <label for="inputData">Repita a senha</label>
                 </div>
                 <input type="password" class="inputData" name="password2" placeholder="*********">
             </div>
+
+            <div class="inputDivSenhaDois hidden"></div>
 
             <div class="inputDiv-button">
                 
