@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Righteous', cursive;
+    
+}
+
+
+
+body{
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+/*Tem que estar abaixo do elemento que altera*/
+@media screen and (max-width: 900px) {
+    body{
+        height: 120vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+  }
+
+
+.container{
+    margin-top:  5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 10vh 0vw 0vh 0vw;
+    flex-grow: 7;
+    width: 95vw;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+
+.navbar{
+    display: flex;
+    height: 5vh;
+    width: 95vw;
+    background-image: linear-gradient(to bottom right, black, rgb(41, 41, 90));
+    padding: 0;
+    
+}
+
+.navbar-item{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: white;
+    border-style: solid;
+    border-width: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navText, .navbar-item{
+    font-size: 1vw;
+}
+
+input{
+    font-size: 1vw;
+}
+
+.item-1, .item-3{
+    flex: 1;
+}
+
+.item-2{
+    flex:2;
+}
+
+ul{
+    list-style: none;
+    position: fixed;
+}
+
+.btn-opcoes{
+    width: 20%;
+    height: 60%;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0 1% 0 1%;
+    border-width: 2px;
+    border-color: black;
+    transition: 0.3s;
+    color: white;
+}
+
+.btn-opcoes:hover {
+    background-color: rgba(154, 205, 50, 0.8) ;
+}
+
+
+#btn-pesquisa{
+    width: 5%;
+    height: 60%;
+    background-color: rgba(154, 205, 50, 0.8);
+    transition: 0.3s;
+}
+
+#btn-pesquisa:hover{
+    background-color: rgba(154, 205, 50, 1);
+}
+
+input{
+    width: 90%;
+    height: 60%;
+    padding: 0 1% 0 1%;
+    box-sizing: border-box;
+}
+
+.content-most-searched{
+    margin-right: 1vw;
+    width: 35%;
+    min-height: 95%;
+    background-color: black;
+}
+
+.content-searched{
+    width: 65%;
+    min-height: 95%;
+    background-color: rgb(255, 255, 255);
+}
+
+#footer{
+    background-color: black;
+    flex-grow: 1;
+    width: 95vw;
+}
+
+span{
+   
+}
+
+/*Tem que estar abaixo do elemento que altera*/
+@media screen and (max-width: 900px) {
+    .container{
+        margin-top:  5vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 10vh 0vw 0vh 0vw;
+        flex-grow: 7;
+        width: 95vw;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .content-most-searched{
+        margin-bottom: 1vw;
+        width: 100%;
+        flex-grow: 1;
+        background-color: black;
+    }
+    
+    .content-searched{
+        width: 100%;
+        flex-grow: 2;
+        background-color: black;
+    }
+}
